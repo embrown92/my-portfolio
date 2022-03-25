@@ -5,10 +5,64 @@
 }
 
 body {
-    color: beige;
+    font-family: 'Raleway', sans-serif;
+    color: blanchedalmond;
     font-size: medium;
 }
 
+/*---Header Style Start---*/
 
-
+header {
+    padding: 20px 35px;
 }
+  
+header h1 {
+    margin: 0;
+    display: inline;
+}
+  
+header a {
+    text-decoration: none;
+    color: #a06138;
+}
+  
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+  
+header nav ul li {
+    display: inline;
+}
+  
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+  
+  
+section {
+    padding: 60px;
+}
+/*---Header Style End---*/
+
+
+
+/*---Footer Style Start---*/
+footer {
+    width: 100%;
+    padding: 20px 20px;
+  }
+  
+footer h2 {
+    display: inline;
+    color: #a06138;
+    font-size: 15px;
+    margin: 0;
+}
+  
+.social-media img {
+    display: inline;
+}
+/*---Footer Style End---*/
