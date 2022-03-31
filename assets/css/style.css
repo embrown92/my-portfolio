@@ -6,8 +6,9 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-    color: blanchedalmond;
+    color: #a06138;
     font-size: medium;
+    background-color: #fff5ee;
 }
 
 /*---Header Style Start---*/
@@ -40,29 +41,201 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
 }
-  
+
+header nav ul li a:hover {
+    color: #28525b;
+}
   
 section {
     padding: 60px;
 }
+
+section img {
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;  
+}
+
+
+#hero {
+    height: 750px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+.about-me img {
+    float: left;
+}
+
 /*---Header Style End---*/
+
+.about-me img {
+    opacity: .85;
+    filter: alpha(opacity=40);
+}
+
+.about-me img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+.text-right {
+    width: 410px;
+    display: inline-block;
+    text-align: left;
+}
+
+.text-right img {
+    vertical-align: top;
+}
+
+.text-right h2 {
+    vertical-align: bottom;
+    margin: 150px 0px 350px 20px;
+    font-size: 65px;
+}
+
+.dream {
+      color: #28525b;
+}
+
+
+
+.about-me {
+    background-color: #ebcfcb;
+    height: 950px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+
+
+
+
+.skill-set {
+    height: 750px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+
+
+
+
+
+.work {
+    height: 750px;
+    background-size: cover;
+    background-color: #c2b280;
+    background-position: center;
+    position: relative;
+}
+
+
+/*---CONTACT STYLE START HERE---*/
+
+.contact {
+    height: 750px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+}
+
+.feedback-input {
+    color: black;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border:2px solid #28525b;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:50%;
+    box-sizing: border-box;
+    outline:0;
+  }
+  
+  .feedback-input:focus { border:2px solid #CC4949; }
+  
+  textarea {
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+  }
+  
+  [type="submit"] {
+    width: 50%;
+    background:#28525b;
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    color:black;
+    font-size:24px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:-4px;
+    font-weight:700;
+  }
+  [type="submit"]:hover { background:#28525b; }
+
+
+
+/*---CONTACT STYLE END HERE---*/
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 /*---Footer Style Start---*/
 footer {
     width: 100%;
-    padding: 20px 20px;
+    padding: 10px 10px;
   }
   
 footer h2 {
     display: inline;
     color: #a06138;
-    font-size: 15px;
+    font-size: 17px;
     margin: 0;
+    opacity: .65;
 }
-  
-.social-media img {
+footer div {
+    float: right;
+}
+
+footer div ul li {
     display: inline;
+  
 }
+
+footer div ul li a img {
+    opacity: .50;
+    filter: alpha(opacity=40);
+    margin: 0 5px;
+}
+
+footer div ul li a img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
 /*---Footer Style End---*/

@@ -6,10 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href=./assets/css/contact.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&family=Raleway:wght@300;400&display=swap"
         rel="stylesheet">
-    <title>Document</title>
+    <title>Eda Mae Brown</title>
 </head>
 
 <body>
@@ -17,65 +18,97 @@
     <!-- navigation -->
     <header>
         <h1>
-            <img src="./assets/images/logo.png.svg" height="80" weight="150" alt="eda mae brown logo">
+            <img id="logo" src="./assets/images/logo.png.svg" height="80" weight="150" alt="eda mae brown logo">
         </h1>
         <nav>
             <ul>
                 <li>
-                    <a href="#about-me">ABOUT ME</a>
+                    <a href="#work">WORK</a>
                 </li>
                 <li>
                     <a href="#skill-set">SKILLS</a>
                 </li>
                 <li>
-                    <a href="#work">WORK</a>
+                    <a href="#about-me">ABOUT ME</a>
                 </li>
                 <li>
                     <a href="#contact">CONTACT</a>
+                </li>
+                <li>
+                    <a href="resume.html" target="_blank">RESUME</a>
                 </li>
             </ul>
         </nav>
     </header>
 
     <!--hero/jumbotron-->
-    <section id="hero">
-    </section>
-
-    <!--about me-->
-    <section id="about-me">
-        <img src="./assets/images/about-me.svg" height="150" weight="220" alt="about me">
-    </section>
-
-    <!--skill set-->
-    <section id="skill-set">
-        <img src="./assets/images/skill-set.svg" height="150" weight="220" alt="technical skill set">
+    <section id="hero" class="hero">
+        <div class="text-right">
+            <img class="section-name" src="./assets/images/hi.svg" height="150" weight="220"
+                alt="hi there greeting text">
+            <h2>
+                I'm Eda Mae, <span id="dream">a web designer && illustrator.</span>
+            </h2>
+        </div>
     </section>
 
     <!--work-->
-    <section id="work">
-        <img src="./assets/images/work.svg" height="150" weight="220" alt="some of my work">
+    <section id="work" class="work">
+        <img class="section-name" src="./assets/images/work.svg" height="150" weight="220" alt="some of my work">
+    </section>
+
+    <!--skill set-->
+    <section id="skill-set" class="skill-set">
+        <img class="section-name" src="./assets/images/skill-set.svg" height="150" weight="220"
+            alt="technical skill set">
+    </section>
+
+    <!--about me-->
+    <section id="about-me" class="about-me">
+        <img class="section-name" src="./assets/images/about-me.svg" height="150" weight="220" alt="about me">
+        <img id="profile" src="./assets/images/profile2.png" height="540" weight="860" alt="profile photo">
+
+        <p>
+            I am passionate about UI/UX design and Web Design. I am a skilled front-end developer and in using graphic
+            design tools such as Photoshop and Illustrator. I am a quick learner and a team worker that gets the job done.
+        </p>
     </section>
 
     <!--contact-->
-    <section id="contact">
-        <img src="./assets/images/contact.svg" height="150" weight="220" alt="get in touch">
+    <section id="contact" class="contact">
+        <img class="section-name" src="./assets/images/contact.svg" height="150" weight="220" alt="get in touch">
+        <p>
+            I'm interested in freelance opportunities. If you’d like to chat about a project or just have question, please fill in the form below. I aim to get back as soon as possible.
+        </p>
+        <form action=”mailto:edamaebrown@gmail.com” method=”POST” enctype=”multipart/form-data” name=”EmailForm”>
+            <input name="name" type="text" class="feedback-input" placeholder="Name" />
+            <input name="email" type="text" class="feedback-input" placeholder="Email" />
+            <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+            <input type="submit" value="SUBMIT" />
+        </form>
     </section>
 
+
     <footer>
-        <h2>❤️ Designed and developed by Eda Mae Brown.</h2>
-        <div id="social-media">
+        <h2>🖤 Designed and developed by Eda Mae Brown.</h2>
+        <div>
             <ul>
-                <li><a href="http://"><img src="./assets/images/github.svg" height="20" width="20" alt="github link"></a></li>
-                <li><a href="http://"><img src="./assets/images/dribbble.svg" height="20" width="20" alt="dribbble link"></a></li>
-                <li><a href="http://"><img src="./assets/images/linkedin.svg" height="20" width="20" alt="linkedin link"></a></li>
-                <li><a href="http://"><img src="./assets/images/facebook.svg" height="20" width="20" alt="facebook link"></a></li>
-                <li><a href="http://"><img src="./assets/images/instagram.svg" height="20" width="20" alt="instagram link"></a></li>
+                <li><a href="https://github.com/embrown92" target="_blank"><img src="./assets/images/github.svg"
+                            height="20" width="20" alt="github link"></a></li>
+                <li><a href="https://dribbble.com/" target="_blank"><img src="./assets/images/dribbble.svg" height="20"
+                            width="20" alt="dribbble link"></a></li>
+                <li><a href="https://www.linkedin.com/in/eda-mae-brown-26a087229/" target="_blank"><img
+                            src="./assets/images/linkedin.svg" height="20" width="20" alt="linkedin link"></a></li>
+                <li><a href="https://www.facebook.com" target="_blank"><img src="./assets/images/facebook.svg"
+                            height="20" width="20" alt="facebook link"></a></li>
+                <li><a href="https://www.instagram.com" target="_blank"><img src="./assets/images/instagram.svg"
+                            height="20" width="20" alt="instagram link"></a></li>
+                <!--Arrow Up Bottom-->
+                <li><a href="/"><img src="./assets/images/arrow-up.svg" height="30" width="30" alt="github link"></a>
+                </li>
             </ul>
         </div>
     </footer>
-
-
-
 
     <script src="./assets/js/script.js"></script>
 </body>
